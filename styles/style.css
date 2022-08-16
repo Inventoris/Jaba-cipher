@@ -1,0 +1,50 @@
+body {
+  min-height: 100vh;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.input-data,
+.output-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input,
+.output {
+  margin: 50px 0;
+}
+
+textarea {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+textarea::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.output-data {
+  width: 800px;
+  height: 400px;
+}
+
+.output-text {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  word-break: break-all;
+  background-color:rgba(137, 236, 37, 0.979);
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 30px;
+  }
+}
