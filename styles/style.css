@@ -47,7 +47,7 @@ textarea:focus-visible {
 .output-text {
   width: 100%;
   min-height: 200px;
-  word-break: break-all;
+  word-break: normal;
   background-color:rgba(137, 236, 37, 0.979);
   border-radius: 20px;
   padding: 30px;
